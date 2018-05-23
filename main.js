@@ -1,11 +1,13 @@
+
+//ChickenMonkey
 for (i = 1; i <=100; i++) {
-    if (i % 5 === 0 && i % 7 ===0) {
+    if (i % 5 === 0 && i % 7 ===0) { //check if i is a multiple of 5 and 7
         console.log("ChickenMonkey")
-    } else if (i % 5 === 0) {
+    } else if (i % 5 === 0) {  //check if i is a multiple of 5
         console.log("Chicken")
-    } else if (i % 7 === 0) {
+    } else if (i % 7 === 0) {  //check if i is a multiple of 7
         console.log("Monkey")
-    } else {
+    } else {                   //if nothing else is true, console.log the number
         console.log(i)
     }
 }
