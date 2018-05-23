@@ -17,7 +17,7 @@ chickenMonkey()
 
 let bandNum = 1;
 
-function takeNum (bandName) {
+function takeNum (bandName = "Yo, put in a band name!") {
     console.log(`${bandNum}. ${bandName} `);
     bandNum++;
 }
